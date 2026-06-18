@@ -4,18 +4,28 @@ Corde est une application de messagerie instantanée multiplateforme inspirée d
 
 ## Fonctionnalités principales
 
-- Gestion des utilisateurs : Inscription, création de compte, connexion et gestion des rôles pour une expérience personnalisée.
-- Salons de discussion : Création et catégorisation de salons textuels, vocaux et vidéo pour une organisation optimale.
-- Messages privés : Échange de messages privés avec prise en charge des statuts personnalisés tels qu'en ligne, occupé ou invisible.
-- Partage de médias : Envoi de fichiers, images, vidéos et réactions aux messages avec des emojis.
+- Messages privés : Échange de messages privés.
 - Sécurité avancée : Chiffrement robuste des communications et authentification sécurisée avec options multi-facteurs.
+- Administration et modération : Outils dédiés pour les administrateurs et modérateurs, y compris un mini-langage de commandes pour une gestion efficace.
+
+### Fonctionnalités principales futures
+
+- Gestion des utilisateurs : Insc ription, création de compte, connexion et gestion des rôles pour une expérience personnalisée.
+- Salons de discussion : Création et catégorisation de salons textuels, vocaux et vidéo pour une organisation optimale.
+
+### Fonctionnalités secondaires
+
+- Prise en charge des statuts personnalisés tels qu'en ligne, occupé ou invisible.
+- Partage de médias : Envoi de fichiers, images, vidéos et réactions aux messages avec des emojis.
 - Personnalisation : Profils utilisateur avec photo de profiles, bios et statuts personnalisés.
 - Notifications : Système de notifications pour les messages, mentions et alertes importantes.
-- Administration et modération : Outils dédiés pour les administrateurs et modérateurs, y compris un mini-langage de commandes pour une gestion efficace.
 
 ## Plateformes supportées
 
 - Linux : Interface utilisateur développée avec GTK pour une intégration native.
+
+## Plateformes futurement supportées
+
 - Windows : Portage de l'application utilisant Qt pour une expérience cohérente.
 - Web et mobile : Version web et mobile prévue grâce à une application Electron, permettant une accessibilité multiplateforme.
 
@@ -35,7 +45,7 @@ Les contributions sont les bienvenues pour améliorer Corde. Pour participer, ve
 
 ## Licence
 
-Corde est distribué sous la licence MIT. Voir le fichier [LICENCE](LICENCE) pour plus de détails.
+Corde est distribué sous la licence GPLv3. Voir le fichier [LICENCE](LICENCE) pour plus de détails.
 
 ## Acknowledgments
 
