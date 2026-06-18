@@ -20,6 +20,7 @@ build/
 *.pch
 
 # Libraries
+libs/
 *.lib
 *.a
 *.la
