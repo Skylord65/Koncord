@@ -14,13 +14,17 @@ Le langage de programmation choisi est le C pour sa rapidité d'exécution et sa
 
 ECB (Entity-Control-Boundary) semble être une architecture adaptée à notre projet. Elle permet de séparer les différentes parties de l'application de manière claire et efficace tout en permettant une portabilité et une évolutivité du code.
 
+Aussi bien pour la partie Control que Boundary, on adoptera une sous-architecture modulaire, en encapsulant les données, en évitant l'effet de bord et en limitant les dépendances, donc en utilisant beaucoup d'interfaçage.
+
+> Le module réseau ne doit pas dépendre de l'implémentation du module stockage par exemple.
+
 ### Interface
 
-L'interface utilisateur sera développée en GTK pour Linux et en Qt pour Windows. Une interface en TUI (Text User Interface) pourra être développée en option. Une electron-app pourrait être envisagée pour une version web et une version mobile.
+L'interface utilisateur sera développée en GTK pour Linux et en Qt pour Windows. Une interface en TUI (Text User Interface) sera développée avant toute chose pour ne pas dépendre du développement du GUI. Une electron-app pourrait être envisagée pour une version web et une version mobile.
 
 ### Protocole
 
-Le protocole de communication sera basé sur des sockets TCP/IP. Il devra être sécurisé par un chiffrement robuste (RSA, Diffie-Hellman) et une authentification sécurisée (multi-facteurs, tokens).
+<!-- TODO: Prochaine réunion -->
 
 ## Liste des tâches
 
